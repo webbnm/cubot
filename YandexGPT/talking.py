@@ -42,4 +42,4 @@ def YandexGPT(text):
     data = response.json()
     answer = data['response']['alternatives'][0]['message']['text']
 
-    print(answer)
+    return answer
